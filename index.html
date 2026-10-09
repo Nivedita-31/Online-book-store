@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online book store</title>
+</head>
+<style>
+    .header{
+        background: rgb(68, 0, 255);
+        height: 80px;
+        font-size: 30px;
+        font-weight: bold;
+         text-align:center ;
+         display: flex;
+    }
+    .logo{
+        width: 150px;
+        align-items: center;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        align-items: left;
+    }
+    
+    .title{
+        flex: 1;
+    }
+    .menu{
+        background: rgb(0, 213, 255);
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu a{
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+    }
+    .main{
+        display: flex;
+        height: 300px;
+        background: rgb(0, 255, 251);
+    }
+    .left{
+        width:200px ;
+        border: 1px solid black;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+    .right{
+        flex: 1;
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .iframe{
+        display: flex;
+        justify-content: space-around;
+    }
+    .right iframe{
+        width: 100%;
+        height: 100%;
+        border: navy;
+    }
+</style>
+<body>
+    <div class = "header">
+        <div class = "logo"><img src="gl bajaj logo.jpg" alt = "logo"></div>
+
+        <div class = "title">WEBSITE NAME</div>      
+    </div>
+    <div class = "menu">
+        <a href="">HOME</a>
+        <a href="">LOGIN</a>
+        <a href="">CATALOGUE</a>
+        <a href="">RESISTRATION</a>
+        <a href="">CART</a>
+    </div>
+        <div class = "main">
+        <div class = "left">
+            <a href="CSE.html" target="content">CSE</a>
+            <a href="ECE.html" target="content">ECE</a>
+            <a href="EEE.html" target="content">EEE</a>
+            <a href="CIVIL.html" target="content">CIVIL</a>
+        </div>
+        <div class = "right">
+            <iframe src="home.html" name="content"></iframe>
+            
+        </div>
+        </div>
+
+    
+</body>
+</html>
